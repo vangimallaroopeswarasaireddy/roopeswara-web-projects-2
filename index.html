@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backbenches Coffee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Backbenches Coffee</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li id="login-nav"><a href="login.html">Login</a></li>
+                <li id="logout-nav" style="display: none;"><a href="#" id="logout-button">Logout</a></li>
+                <li class="nav-icons">
+                    <span class="online-status" title="Online Status">
+                        <i class="fas fa-circle"></i>
+                    </span>
+                    <a href="cart.html"><i class="fas fa-shopping-cart"></i> <span id="cart-count">0</span></a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Welcome to Backbenches Coffee</h2>
+            <p>Where every cup tells a story</p>
+            <a href="#menu" class="cta-button">View Menu</a>
+        </div>
+    </section>
+
+    <section id="menu" class="menu-section">
+        <h2>Our Menu</h2>
+        <div class="category-buttons">
+            <button class="active">All Items</button>
+            <button>Coffee Drinks</button>
+            <button>Tea Selection</button>
+            <button>Cold Beverages</button>
+            <button>Pastries</button>
+            <button>Sandwiches</button>
+        </div>
+        <div class="menu-grid">
+            <!-- Menu items will be populated by JavaScript -->
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <p>Backbenches Coffee is a cozy coffee shop dedicated to serving the finest quality coffee. We believe in creating a warm and welcoming environment where students and coffee enthusiasts can relax and enjoy their favorite brews.</p>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact Us</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <p><i class="fas fa-map-marker-alt"></i>Fort Grand Rd, behind RGIA Police station, Ranga Reddy Nagar, Shamshabad, Hyderabad, Telangana 501218 </p>
+                <p><i class="fas fa-phone"></i> +91 9704178015 </p>
+                <p><i class="fas fa-envelope"></i> info@backbenchescoffee.com</p>
+            </div>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Backbenches Coffee. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
